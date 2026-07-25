@@ -952,5 +952,17 @@
     "history": {
       "v1.0.0": "新增电影蓝光原盘转封装插件，支持 MPLS 播放列表解析、覆盖检查和安全回滚。"
     }
+  },
+  "PublicBtIndexer": {
+    "name": "公开BT索引器",
+    "description": "自动注册公开 BT 站点到 MoviePilot 原生搜索，首期支持 Nyaa.si，无需 Jackett。",
+    "labels": "站点,搜索,公开BT",
+    "version": "1.0.0",
+    "icon": "spider.png",
+    "author": "m0eak",
+    "level": 1,
+    "history": {
+      "v1.0.0": "首期支持 Nyaa.si：启用后自动注册索引器、创建公开站点记录，并可加入原生搜索列表；禁用时默认安全回滚。"
+    }
   }
 }
